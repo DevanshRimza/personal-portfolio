@@ -115,45 +115,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Full stack Developer",
     company_name: "Serviots",
@@ -161,10 +122,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed full-stack features for production web applications",
+      "Built modules for billing, inventory, and workflow automation",
+      "Designed and optimized APIs and backend business logic",
+      "Delivered feature enhancements and resolved production issues",
+      "Collaborated to ship scalable and user-focused solutions"
     ],
   },
 ];
@@ -198,68 +160,76 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pharmacy Management & Billing Software",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built and enhanced a full-stack pharmacy management product covering billing, inventory, purchase orders, and core operational workflows.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "/project1.png",
+    link: "https://servirxapp.serviots.tech/",
   },
   {
-    name: "Job IT",
+    name: "Serviots Official Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built the company’s official Next.js website with responsive UI, performance optimization, and modern frontend architecture.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "/serviotsMockup.png",
+    link: "https://www.serviots.com/",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
