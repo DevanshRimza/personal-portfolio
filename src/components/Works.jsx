@@ -16,8 +16,14 @@ const ProjectCard = ({
   image,
   link,
 }) => {
+  const hasLink = Boolean(link);
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} onClick={() => window.open(link, "_blank")}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      onClick={hasLink ? () => window.open(link, "_blank") : undefined}
+      className={hasLink ? "cursor-pointer" : undefined}
+    >
       <Tilt
         options={{
           max: 45,
@@ -35,7 +41,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-            <h3 className='text-white font-bold text-[24px] md:h-28 lg:h-16 hover:underline cursor-pointer'>{name}</h3>
+            <h3 className={`text-white font-bold text-[24px] md:h-28 lg:h-16${hasLink ? " hover:underline cursor-pointer" : ""}`}>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 

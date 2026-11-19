@@ -189,6 +189,48 @@ const projects = [
     link: "https://servirxapp.serviots.tech/",
   },
   {
+    name: "Event Staffing & Workforce Management Platform",
+    description:
+      "A workforce management platform designed to streamline multi-workspace operations, including resource management, project scheduling, vacancies, job invitations, recruitment, interview evaluations, and employee onboarding.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/eventStaffing.png",
+    link: "",
+  },
+  {
+    name: "CarbonOS – Agriculture & Carbon-Credit Platform",
+    description:
+      "An agriculture-focused platform connecting farmers and FPOs with carbon-credit opportunities through digital onboarding, application management, and workflows supporting sustainable agricultural practices.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },  
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "/carbonOS.png",
+    link: "",
+  },
+  {
     name: "Serviots Official Website",
     description:
       "Built the company’s official Next.js website with responsive UI, performance optimization, and modern frontend architecture.",
